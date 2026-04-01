@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tag1consulting",
+  "owner": {
+    "name": "Tag1 Consulting",
+    "email": "greg@tag1consulting.com"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Tag1 Consulting",
+    "homepage": "https://tag1consulting.com"
+  },
+  "plugins": [
+    {
+      "name": "comprehensive-review",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tag1consulting/claude-comprehensive-review.git"
+      },
+      "description": "CodeRabbit-style PR review using parallel specialized agents. Produces structured PR summaries and severity-ranked findings from 10+ agents.",
+      "author": {
+        "name": "Tag1 Consulting"
+      },
+      "category": "code-review",
+      "homepage": "https://github.com/tag1consulting/claude-comprehensive-review"
+    }
+  ]
+}
