@@ -10,7 +10,13 @@ A Claude Code plugin marketplace for plugins published by [Tag1 Consulting](http
 
 ## Installation
 
-Install any plugin inside Claude Code:
+First, add this marketplace (one-time setup, run in your terminal):
+
+```bash
+claude plugin marketplace add tag1consulting/claude-plugins
+```
+
+Then install any plugin inside Claude Code:
 
 ```
 /plugins install <plugin-name>@tag1consulting
