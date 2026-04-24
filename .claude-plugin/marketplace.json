@@ -15,7 +15,7 @@
       "version": "1.5.0",
       "source": {
         "source": "url",
-        "url": "https://github.com/tag1consulting/claude-comprehensive-review.git"
+        "url": "git@github.com:tag1consulting/claude-comprehensive-review.git"
       },
       "description": "CodeRabbit-style PR review using parallel specialized agents. Produces structured PR summaries and severity-ranked findings from 10+ agents.",
       "author": {
