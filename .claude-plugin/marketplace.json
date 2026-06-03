@@ -14,8 +14,8 @@
       "name": "comprehensive-review",
       "version": "1.11.0",
       "source": {
-        "source": "url",
-        "url": "git@github.com:tag1consulting/claude-comprehensive-review.git"
+        "source": "github",
+        "repo": "tag1consulting/claude-comprehensive-review"
       },
       "description": "Comprehensive PR review using parallel specialized agents. Produces structured PR summaries and severity-ranked findings from 10+ agents.",
       "author": {
