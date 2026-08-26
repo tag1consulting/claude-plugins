@@ -12,6 +12,12 @@ permissions:
   contents: read
   issues: write
   pull-requests: write
+  # Opt-in per tag1consulting/ai-pr-review#679: only needed if
+  # .github/ai-pr-review/policy.yml ever uses a route's `require` field and
+  # /ai-pr-review rescan / review-full should be able to (re-)post the
+  # ai-pr-review/policy-gate check run. Without it, `require` routing still
+  # works, the check run just silently doesn't get posted (fail-soft).
+  checks: write
 
 jobs:
   review:
